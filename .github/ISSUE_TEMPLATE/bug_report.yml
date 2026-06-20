@@ -1,0 +1,68 @@
+name: バグ報告
+description: 動作上の問題を報告してください
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 対象プラットフォーム
+      description: 問題が発生したプラットフォームを選択してください
+      options:
+        - VyNy for Mac
+        - VyNy for Android
+        - VyNy for iOS
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: アプリのバージョン
+      description: 「About VyNy」などから確認できるバージョン番号
+      placeholder: 例 1.0.0 (42)
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS バージョン
+      placeholder: 例 macOS 14.5
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 問題を再現するための手順を順番に記述してください
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した挙動
+      description: 本来どうなるべきだったかを記述してください
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の挙動
+      description: 実際に何が起きたかを記述してください
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スクリーンショット
+      description: 関連するログやスクリーンショットがあれば貼り付けてください（任意）
+    validations:
+      required: false
