@@ -30,7 +30,7 @@ Actively developed, with a roadmap and support.
 
 | Platform | Status | Get it |
 |---|---|---|
-| **VyNy for Android** | In development | Coming soon |
+| **VyNy for Android** | Available | [Google Play](https://play.google.com/store/apps/details?id=jp.nain.aplay&utm_source=github&utm_medium=readme&utm_campaign=vyny_android) |
 | **VyNy for iOS** | Planned | Coming soon |
 
 ### Lab
