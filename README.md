@@ -35,6 +35,10 @@ Experimental side projects. Shared **as-is, with no support** and no guarantee o
 
 **Today, VyNy for Mac speaks Claude Code's status out loud** — when a run finishes, when it's waiting on your input, or when it breaks — so you don't have to keep glancing back at the screen while it works. Kick off a long run, switch to something else, and let your ears tell you the moment it needs you. Running several sessions at once? You can't watch them all — so let them speak.
 
+![VyNy for Mac — Claude Code events spoken as they arrive](docs/demo.gif)
+
+> Claude Code's **Completion / Error / Reply / Urgent** events landing in the menu bar and read aloud (English UI). ▶︎ [Watch with sound (MP4)](docs/demo.mp4)
+
 ### Why
 
 Watching Claude Code work means babysitting a screen — is it done? stuck? waiting on me? Polling for that is pure focus tax, and it gets worse the more sessions you run in parallel. VyNy speaks the four events that actually interrupt you — **Completion, Error, Reply, Urgent** — the instant they happen, so you keep your eyes on real work and come back only when it matters.
