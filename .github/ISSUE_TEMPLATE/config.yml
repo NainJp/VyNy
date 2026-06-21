@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 質問・要望・アイデア
-    url: https://github.com/NainJp/vyny/discussions
-    about: バグ以外の相談・機能要望・雑談はこちらへ
+  - name: Questions, requests, ideas
+    url: https://github.com/NainJp/VyNy/discussions
+    about: For anything that isn't a bug — questions, feature requests, chat

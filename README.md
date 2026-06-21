@@ -1,50 +1,67 @@
 # VyNy — Ear First Computing
 
-> 画面を見ずに、AI・CI・メッセージの状況を耳で受ける。開発者向け生産性ツール。
+> Stay in flow. Hear what your AI, CI, and messages are doing — without looking at the screen.
+
+VyNy is a developer productivity tool that reads out what matters with synthesized speech, so you don't have to break focus to check a screen.
 
 ---
 
-## これは何か
+## Why
 
-コードを書いているとき、Claude Code のビルドが終わったか、CI がこけたかを確認するためだけに画面に視線を戻すのはノイズになる。VyNy は **「完了・失敗・返信・緊急」の 4 種類のイベントを合成音声で読み上げる** ことで、その視線移動をなくす。
+When you're deep in code, glancing back at the screen just to see whether a Claude Code build finished or CI broke is pure noise. VyNy speaks the four kinds of events that actually interrupt you — **Completion, Error, Reply, Urgent** — so you can keep your eyes on the work.
 
-### 仕組みの核
+### How it works
 
-| 要素 | 内容 |
+| Element | Detail |
 |---|---|
-| **オンデバイス TTS** | 合成音声処理はデバイス内で完結。テキストは外部サーバへ送らない |
-| **4 イベント正規化** | Completion / Error / Reply / Urgent に絞って通知を分類 |
-| **3 モード** | Desk（デスク作業）/ Run（移動中）/ Walk（歩行中）で読み上げ挙動を切り替え |
+| **On-device TTS** | Speech is synthesized on your device. Your text is never sent to an external server. |
+| **4-event model** | Notifications are normalized into just four classes: Completion / Error / Reply / Urgent. |
+| **3 modes** | Desk / Run / Walk switch the speaking behavior to fit what you're doing. |
 
 ---
 
-## アプリ一覧
+## Projects
 
-| プラットフォーム | 状態 | 入手 |
+VyNy is an umbrella for more than one thing, and they are not the same kind of project. Some are **products** we're building with a roadmap; others are **Lab** experiments we share as-is.
+
+### Products
+
+Actively developed, with a roadmap and support.
+
+| Platform | Status | Get it |
 |---|---|---|
-| **VyNy for Mac** | 配布中 | [Releases](../../releases) から最新の DMG をダウンロード |
-| **VyNy for Android** | Coming soon | — |
-| **VyNy for iOS** | Coming soon | — |
+| **VyNy for Android** | In development | Coming soon |
+| **VyNy for iOS** | Planned | Coming soon |
+
+### Lab
+
+Experimental side projects. Shared **as-is, with no support** and no guarantee of fixes or updates. Use at your own discretion.
+
+| Platform | Status | Get it |
+|---|---|---|
+| **VyNy for Mac** | Available | [Releases](../../releases) — download the latest `.dmg` |
 
 ---
 
-## インストール（Mac）
+## Install — VyNy for Mac (Lab)
 
-1. [Releases](../../releases) から最新の `.dmg` ファイルをダウンロードする。
-2. DMG を開き、VyNy アプリを **Applications** フォルダへドラッグする。
-3. そのまま起動できる（配布物は Apple の公証済み）。万一警告が出た場合は **システム設定 → プライバシーとセキュリティ** から「このまま開く」を選択する。
+> Provided as-is. No support or warranty — see [SUPPORT.md](SUPPORT.md).
 
----
-
-## フィードバック
-
-- **バグ報告** → [Issues](../../issues)（テンプレートに沿って再現手順を添えてください）
-- **質問・機能要望・雑談** → [Discussions](https://github.com/NainJp/vyny/discussions)
-
-返信はベストエフォートです。対応を保証するものではありません。
+1. Download the latest `.dmg` from [Releases](../../releases).
+2. Open the DMG and drag **VyNy** into your **Applications** folder.
+3. Launch it. The build is notarized by Apple, so it should open directly. If a warning appears, go to **System Settings → Privacy & Security** and choose **Open Anyway**.
 
 ---
 
-## サポート方針
+## Feedback
 
-詳細は [SUPPORT.md](SUPPORT.md) を参照してください。
+- **Bug reports** → [Issues](../../issues) (please follow the template and include reproduction steps)
+- **Questions, ideas, requests, chat** → [Discussions](https://github.com/NainJp/VyNy/discussions)
+
+Replies are best-effort and not guaranteed — especially for Lab projects.
+
+---
+
+## Support
+
+See [SUPPORT.md](SUPPORT.md) for the full policy.

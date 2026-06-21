@@ -1,41 +1,41 @@
-name: バグ報告
-description: 動作上の問題を報告してください
+name: Bug report
+description: Report a problem with a VyNy app
 labels: ["bug"]
 body:
   - type: dropdown
     id: platform
     attributes:
-      label: 対象プラットフォーム
-      description: 問題が発生したプラットフォームを選択してください
+      label: Platform
+      description: Which platform did the problem occur on?
       options:
-        - VyNy for Mac
         - VyNy for Android
         - VyNy for iOS
+        - VyNy for Mac (Lab — as-is)
     validations:
       required: true
 
   - type: input
     id: app_version
     attributes:
-      label: アプリのバージョン
-      description: 「About VyNy」などから確認できるバージョン番号
-      placeholder: 例 1.0.0 (42)
+      label: App version
+      description: The version number (e.g. from "About VyNy")
+      placeholder: e.g. 1.0.0 (42)
     validations:
       required: true
 
   - type: input
     id: os_version
     attributes:
-      label: OS バージョン
-      placeholder: 例 macOS 14.5
+      label: OS version
+      placeholder: e.g. macOS 14.5
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 再現手順
-      description: 問題を再現するための手順を順番に記述してください
+      label: Steps to reproduce
+      description: List the steps to reproduce the problem, in order.
       placeholder: |
         1. …
         2. …
@@ -46,23 +46,23 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: 期待した挙動
-      description: 本来どうなるべきだったかを記述してください
+      label: Expected behavior
+      description: What did you expect to happen?
     validations:
       required: false
 
   - type: textarea
     id: actual
     attributes:
-      label: 実際の挙動
-      description: 実際に何が起きたかを記述してください
+      label: Actual behavior
+      description: What actually happened?
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: ログ・スクリーンショット
-      description: 関連するログやスクリーンショットがあれば貼り付けてください（任意）
+      label: Logs / screenshots
+      description: Paste any relevant logs or screenshots (optional).
     validations:
       required: false

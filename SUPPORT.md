@@ -1,26 +1,30 @@
-# サポート方針
+# Support Policy
 
-VyNy はボランティア的な個人開発プロジェクトです。以下の方針をご理解のうえでご利用ください。
+VyNy is an umbrella for two kinds of projects, and the support you can expect depends on which one you're using.
 
-## 提供形態
+## Products (Android, iOS)
 
-本プロジェクトは **as-is（現状有姿）** で提供されます。動作保証・SLA はなく、メンテナの時間が取れる範囲でのみ対応します。
+These are built as real products, with an active roadmap. While they're still in development, support is best-effort through the channels below. A clearer support commitment will follow at launch.
 
-## 問い合わせ窓口
+## Lab (Mac)
 
-| 種別 | 窓口 |
+Lab projects are experiments, provided **as-is**. There is no warranty, no SLA, and no guarantee of fixes or updates. The maintainers respond only as time allows.
+
+## Where to reach us
+
+| Type | Channel |
 |---|---|
-| バグ報告 | [Issues](../../issues)（テンプレートに沿って、再現手順・環境・バージョンを添えてください） |
-| 質問・機能要望・アイデア・雑談 | [Discussions](https://github.com/NainJp/vyny/discussions) |
+| Bug reports | [Issues](../../issues) — follow the template; include reproduction steps, environment, and version |
+| Questions, feature requests, ideas, chat | [Discussions](https://github.com/NainJp/VyNy/discussions) |
 
-Issues はバグ報告専用です。バグ以外の相談は Discussions へお願いします。
+Issues are for bug reports only. Everything else goes to Discussions.
 
-## 対応について
+## What to expect
 
-- 返信・修正対応はベストエフォートです。期日を約束するものではありません。
-- すべての Issue / Discussion に返信するとは限りません。
-- 優先度はメンテナが独自に判断します。
+- Replies and fixes are best-effort. We don't promise timelines.
+- We may not respond to every Issue or Discussion.
+- Prioritization is at the maintainers' discretion.
 
-## セキュリティに関する報告
+## Security
 
-セキュリティ上の脆弱性など、公開 Issue での開示が適切でない事柄は、本リポジトリの **Security → Report a vulnerability**（GitHub の非公開脆弱性報告）からご連絡ください。
+For security vulnerabilities — or anything that shouldn't be disclosed in a public Issue — use **Security → Report a vulnerability** (GitHub's private vulnerability reporting) in this repository.
