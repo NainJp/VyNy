@@ -25,26 +25,26 @@ Experimental side projects. Shared **as-is, with no support** and no guarantee o
 
 | Platform | For | Status | Get it |
 |---|---|---|---|
-| **VyNy for Mac** | Developer focus — hear your AI, CI, and message events while you code | Available | [Releases](../../releases) — download the latest `.dmg` |
+| **VyNy for Mac** | Developer focus — hear when Claude Code finishes, breaks, or needs you, so you stop polling the screen | Available | [Releases](../../releases) — download the latest `.dmg` |
 
 ---
 
 ## VyNy for Mac (Lab)
 
-> Stay in flow. Hear what your AI, CI, and messages are doing — without looking at the screen.
+> Keep coding. Hear when Claude Code is done — stop polling the screen.
 
-A developer productivity tool that speaks the events that actually interrupt you, so you don't break focus to check a screen.
+**Today, VyNy for Mac speaks Claude Code's status out loud** — when a run finishes, when it's waiting on your input, or when it breaks — so you don't have to keep glancing back at the screen while it works. Kick off a long run, switch to something else, and let your ears tell you the moment it needs you. Running several sessions at once? You can't watch them all — so let them speak.
 
 ### Why
 
-When you're deep in code, glancing back at the screen just to see whether a Claude Code build finished or CI broke is pure noise. VyNy speaks the four kinds of events that actually interrupt you — **Completion, Error, Reply, Urgent** — so you can keep your eyes on the work.
+Watching Claude Code work means babysitting a screen — is it done? stuck? waiting on me? Polling for that is pure focus tax, and it gets worse the more sessions you run in parallel. VyNy speaks the four events that actually interrupt you — **Completion, Error, Reply, Urgent** — the instant they happen, so you keep your eyes on real work and come back only when it matters.
 
 ### How it works
 
 | Element | Detail |
 |---|---|
 | **On-device TTS** | Speech is synthesized on your device. Your text is never sent to an external server. |
-| **4-event model** | Notifications are normalized into just four classes: Completion / Error / Reply / Urgent. |
+| **4-event model** | Claude Code's activity is normalized into just four classes: Completion / Error / Reply / Urgent. |
 | **3 modes** | Desk / Run / Walk switch the speaking behavior to fit what you're doing. |
 
 ### Install
