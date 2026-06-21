@@ -1,5 +1,7 @@
 # VyNy — Ear First Computing
 
+**English** · [日本語](README.ja.md)
+
 > Hear what matters — without looking at the screen.
 
 VyNy reads your notifications, messages, and events out loud with synthesized speech — so your eyes stay on the world, not your screen. From everyday life on the move to deep focus at your desk, it all runs on one idea: **ears first**.
